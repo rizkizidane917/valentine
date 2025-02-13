@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,8 +16,13 @@
   }
 }
 
+@theme {
+  --font-display: "Beth Ellen", "serif";
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Beth Ellen, serif; */
 }

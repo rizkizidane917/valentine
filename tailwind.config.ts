@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        "beth-ellen": ["Beth Ellen", "serif"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
